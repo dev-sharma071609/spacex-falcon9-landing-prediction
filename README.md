@@ -6,22 +6,53 @@ This project predicts the success of SpaceX Falcon 9 first-stage landings. By de
 
 The project covers the full data science lifecycle: data collection, cleaning, exploratory analysis, interactive visualization, and machine learning.
 
+---
+
 ## Repository Structure
-- **Data Collection**
-  - `jupyter-labs-spacex-data-collection-api.ipynb`: Fetching data from SpaceX API.
-  - `jupyter-labs-webscraping.ipynb`: Scraping launch records from Wikipedia.
-- **Data Wrangling & EDA**
-  - `labs-jupyter-spacex-Data wrangling.ipynb`: Cleaning and preprocessing data.
-  - `jupyter-labs-eda-sql-coursera_sqllite.ipynb`: Exploratory analysis using SQL.
-  - `Exploratory Data Analysis with Data visualization.ipynb`: Visualizing data patterns and correlations.
-- **Geospatial Analysis**
-  - `lab_jupyter_launch_site_location.ipynb`: Mapping launch sites and proximity analysis using Folium.
-- **Predictive Modeling**
-  - `SpaceX_Machine Learning Prediction_Part_5.ipynb`: Building and tuning classification models (SVM, KNN, Decision Tree, Logistic Regression).
-- **Interactive Dashboard**
-  - `spacex-dash-app.py`: A Plotly Dash application for interactive visualization of launch outcomes.
-- **Data**
-  - `spacex_launch_geo.csv`: Dataset containing launch coordinates and outcomes.
- 
-- ###AUTHOR: DEV SHARMA
+
+### Data Collection
+- **jupyter-labs-spacex-data-collection-api.ipynb**  
+  Collecting launch data using the SpaceX REST API.
+- **jupyter-labs-webscraping.ipynb**  
+  Scraping historical Falcon 9 launch records from Wikipedia.
+
+### Data Wrangling & Exploratory Data Analysis
+- **labs-jupyter-spacex-Data wrangling.ipynb**  
+  Cleaning, preprocessing, and preparing the dataset.
+- **jupyter-labs-eda-sql-coursera_sqllite.ipynb**  
+  Exploratory data analysis using SQL queries.
+- **edadataviz.ipynb**  
+  Exploratory data analysis using data visualization techniques.
+
+### Geospatial Analysis
+- **lab_jupyter_launch_site_location.ipynb**  
+  Mapping launch sites and analyzing proximity using Folium.
+
+### Predictive Modeling
+- **SpaceX_Machine Learning Prediction_Part_5.ipynb**  
+  Building, tuning, and evaluating classification models such as Logistic Regression, SVM, KNN, and Decision Tree.
+
+### Interactive Dashboard
+- **spacex_dash_app.py**  
+  A Plotly Dash application for interactive visualization of launch outcomes.
+
+### Data
+- **spacex_launch_geo.csv**  
+  Dataset containing launch site coordinates and landing outcomes.
+
+---
+
+## Tools and Technologies
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- SQL (SQLite)
+- Folium
+- Plotly Dash
+- Scikit-learn
+
+---
+
+## Author
+**Dev Sharma**
 
